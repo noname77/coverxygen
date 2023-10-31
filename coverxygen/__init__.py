@@ -397,7 +397,8 @@ class Coverxygen(object):
       "define"   : "Defines",
       "file"     : "Files",
       "namespace": "Namespaces",
-      "page"     : "Pages"
+      "page"     : "Pages",
+      "property" : "Properties",
     }
     return l_mapping[p_kind]
 
