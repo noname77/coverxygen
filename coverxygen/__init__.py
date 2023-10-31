@@ -400,6 +400,7 @@ class Coverxygen(object):
       "page"     : "Pages",
       "property" : "Properties",
       "event"    : "Events",
+      "interface": "Interfaces",
     }
     return l_mapping[p_kind]
 

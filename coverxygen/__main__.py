@@ -110,7 +110,7 @@ def main():
   if l_result.scope == "all":
     l_result.scope = "public,protected,private"
   if l_result.kind == "all":
-    l_result.kind = "enum,enumvalue,friend,typedef,variable,function,signal,slot,class,struct,union,define,file,namespace,page,property,event"
+    l_result.kind = "enum,enumvalue,friend,typedef,variable,function,signal,slot,class,struct,union,define,file,namespace,page,property,event,interface"
 
   l_formatMapping = {
     "json"       : "json-v2",
