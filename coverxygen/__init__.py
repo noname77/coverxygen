@@ -399,6 +399,7 @@ class Coverxygen(object):
       "namespace": "Namespaces",
       "page"     : "Pages",
       "property" : "Properties",
+      "event"    : "Events",
     }
     return l_mapping[p_kind]
 
